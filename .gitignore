@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Test reports and generated artifacts
+test-output/
+allure-results/
+allure-report/
+*.log
+
+# macOS files
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
